@@ -1,0 +1,18 @@
+﻿Построение начато 15.04.2025 12:27:40.
+     1>Проект "E:\USERS\24VA1\programa\programa\programa.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\programa.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\programa.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt programa.cpp
+         programa.cpp
+     1>e:\users\24va1\programa\programa\programa.cpp(1): warning C4627: #include "pch.h": пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "StdAfx.h" или перестройка предкомпилированного заголовка
+     1>e:\users\24va1\programa\programa\programa.cpp(2): warning C4627: #include <iostream>: пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "StdAfx.h" или перестройка предкомпилированного заголовка
+     1>e:\users\24va1\programa\programa\programa.cpp(23): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "StdAfx.h"" в источник.
+     1>Построение проекта "E:\USERS\24VA1\programa\programa\programa.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.13
